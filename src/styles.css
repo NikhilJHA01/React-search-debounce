@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.search {
+  width: 100%;
+  padding: 10px;
+}
+
+.autocomplete {
+  width: 100%;
+  /* padding: 10px; */
+  /* border: 1px solid black; */
+  height: auto;
+  box-sizing: border-box;
+}
+
+.autocompleteitems {
+  padding: 10px;
+  background-color: blanchedalmond;
+  border-bottom: 1px solid grey;
+}
