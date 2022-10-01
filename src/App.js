@@ -24,6 +24,7 @@ export default function App() {
       });
   };
 
+  // Use Callback so that function is memoised and is not assigned a new copy again and again
   const optimisedfunc = useCallback(debounce(handleChange), []);
 
   return (
